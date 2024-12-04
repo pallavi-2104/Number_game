@@ -1,30 +1,36 @@
 # Number Guessing Game
 
-A simple and engaging Java-based game where players attempt to guess a randomly generated number within a defined range. The program provides hints after each guess and keeps track of attempts and scores.
+A simple and fun Java-based game where players attempt to guess a randomly generated number within a specified range. The game provides feedback on each guess and tracks attempts and scores.  
 
 ---
 
 ## Features
 
-- Random number generation within the range of **1 to 100**.
-- Player sets the maximum number of attempts.
-- Feedback on guesses:
-  - "Too High" for guesses above the target number.
-  - "Too Low" for guesses below the target number.
-- Option to replay the game after using all attempts.
-- Tracks scores for correct guesses.
+- **Random Number Generation:** Generates numbers between 1 and 100.
+- **User-defined Attempts:** Players can set the maximum number of attempts.
+- **Hints Provided:** Feedback is given for incorrect guesses:
+  - "Too High" for guesses above the target.
+  - "Too Low" for guesses below the target.
+- **Replay Option:** Players can restart the game after all attempts are used.
+- **Score Tracking:** Keeps track of successful guesses.
+
+---
+
+ ##Live Demo
+
+Check out the game in action: [Live Demo](https://replit.com/@pallavi-2104/NumberGuessGame)  
 
 ---
 
 ## How to Play
 
 1. Run the program.
-2. Enter the number of attempts you want for guessing the number.
-3. Guess a number between 1 and 100:
-   - If your guess is correct, you earn a point, and a new random number is generated.
-   - If incorrect, the program will tell you if your guess is "Too High" or "Too Low."
-4. Use your attempts wisely! If you run out of attempts, you can choose to replay or exit the game.
-5. At the end, the program will display your score and total attempts used.
+2. Enter the number of attempts you'd like to have.
+3. Guess numbers between 1 and 100:
+   - Correct guess: You win a point and continue with a new random number.
+   - Incorrect guess: Receive feedback ("Too High" or "Too Low") and try again.
+4. Once attempts are used, choose to play again or exit.
+5. Your score and attempt statistics will be displayed at the end.
 
 ---
 
